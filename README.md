@@ -24,6 +24,4 @@ Comming soon...
 # Thanks to
 - Shadow
 - Aminer
-- JeJe Plus
-- Mr3chb1
-- Rojhelat
+- x04
