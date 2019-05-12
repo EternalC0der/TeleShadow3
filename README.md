@@ -19,7 +19,7 @@ Comming soon...
 - [x] Support Custom Icons
 - [x] Bypass Two-step verification!
 - [x] Bypass Inherent identity and need 5-digit verification code!
-- NOTE: Only official telegram desktopis currently supported
+- NOTE: Only official telegram desktops currently supported
  
 # Thanks to
 - Shadow
