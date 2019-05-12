@@ -12,13 +12,14 @@ A Demo ?
 Comming soon...
 
 # What features does it have?
-- [x] Support SMTP Transport!
-- [x] Support Telegram API Transport!
-- [x] Support FakeMessage!
-- [x] Support Custom Icons!
-- [x] Bypass Two-step verification
-- [x] Bypass Inherent identity and need 5-digit verification code
-- [-] Unofficial telegrams supports
+- [x] Bypass new security mechanisms
+- [x] Support SMTP Transport
+- [x] Support Telegram API Transport
+- [x] Support FakeMessage
+- [x] Support Custom Icons
+- [x] Bypass Two-step verification!
+- [x] Bypass Inherent identity and need 5-digit verification code!
+- NOTE: Only official telegram desktopis currently supported
  
 # Thanks to
 - Shadow
