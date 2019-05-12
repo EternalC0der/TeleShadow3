@@ -15,13 +15,14 @@ Comming soon...
 - [x] Support SMTP Transport!
 - [x] Support Telegram API Transport!
 - [x] Support FakeMessage!
-- [x] Support Custom Icon!
-- [x] Bypass Two-step confirmation
+- [x] Support Custom Icons!
+- [x] Bypass Two-step verification
 - [x] Bypass Inherent identity and need 5-digit verification code
-- [x] Support for the official telegram desktop only windows !
+- [-] Unofficial telegrams supports
  
 # Thanks to
 - Shadow
+- Aminer
 - JeJe Plus
 - Mr3chb1
 - Rojhelat
