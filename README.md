@@ -1,6 +1,6 @@
 # TeleShadow3
 Teleshadow3- Advanced Telegram Desktop Session Hijacker!
-![alt text](https://raw.githubusercontent.com/ParsingTeam/TeleShadow2/master/Screen.jpg) 
+![alt text](https://raw.githubusercontent.com/EternalC0der/TeleShadow3/master/Screen.png) 
 
 #Stealing desktop telegrams has never been so easy !
 Set the email and sender details of the sender and recipient or use Telegram API! and send it to the victim after compiling.
