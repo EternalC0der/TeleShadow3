@@ -1,4 +1,4 @@
-# TeleShadow3 [under construction, Sorry!]
+# TeleShadow3
 Teleshadow3- Advanced Telegram Desktop Session Hijacker!
 
 # Download
